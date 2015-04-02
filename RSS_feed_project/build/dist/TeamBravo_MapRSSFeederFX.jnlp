@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TeamBravo_MapRSSFeederFX.jnlp">
+  <information>
+    <title>TeamBravo_MapRSSFeederFX</title>
+    <vendor>Ying</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TeamBravo_MapRSSFeederFX.jar" size="243428" download="eager" />
+    <jar href="lib/dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib/geocoder-java-0.15.jar" size="29132" download="eager" />
+    <jar href="lib/jdom-0.7.jar" size="127118" download="eager" />
+    <jar href="lib/json-lib-2.2.1-jdk15.jar" size="140060" download="eager" />
+    <jar href="lib/junit-4.7.jar" size="232354" download="eager" />
+    <jar href="lib/jxmapviewer2-1.1.jar" size="107304" download="eager" />
+    <jar href="lib/microba-0.4.4.3.jar" size="134366" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.18-bin.jar" size="789885" download="eager" />
+    <jar href="lib/swingx-all-1.6.3.jar" size="1497437" download="eager" />
+    <jar href="lib/swingx-ws-2007_10_14.jar" size="79922" download="eager" />
+    <jar href="lib/swingx-ws-2009_06_14.jar" size="336005" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TeamBravo_MapRSSFeederFX" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="teambravo_maprssfeederfx.TeamBravo_MapRSSFeederFX"  name="TeamBravo_MapRSSFeederFX" />
+  <update check="always"/>
+</jnlp>
